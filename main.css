@@ -494,7 +494,12 @@
   color: var(--header-primary);
   background-color: var(--background-secondary);
   border-radius: var(--border-radius) var(--border-radius) 0 0;
-}
+
+  /* ทำการย้ายไปทางขวาด้วย left */
+  left: 50%; 
+  transform: translateX(-50%);
+} 
+
 :root .membersWrap__90226::after {
   content: "";
   position: absolute;
